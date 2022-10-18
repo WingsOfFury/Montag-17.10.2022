@@ -93,6 +93,7 @@ h2 {
 h3 {
 
     font-size: 1.5rem;
+
 }
 
 
@@ -160,17 +161,26 @@ main {
     width: 100%;
 }
 
+
+
 figure figcaption {
 
     font-style: italic;
 }
 
+
+h4 {
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
 .container_schweden {
 
     display: grid;
-    align-content: space-between;
     justify-items: center;
-    grid-template-rows: 10% 25% 35% auto;
+    grid-template-rows: 10% 33% 35% auto;
     margin-right: 8rem;
     width: 100%;
 }
@@ -181,7 +191,6 @@ figure figcaption {
     border: 4px double black;
     width: 80%;
     margin: 1rem
-
 }
 
 .container_knives {
@@ -190,15 +199,16 @@ figure figcaption {
     width: 80%;
     margin: 1rem;
 
-    
+
 }
 
 
 .ikea {
 
     border: 4px double black;
-    padding: 1rem;
     width: 80%;
+    padding: 1rem;
+
 }
 
 .ikea img {
